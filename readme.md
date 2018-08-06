@@ -1,6 +1,6 @@
-#PROTRACTOR
+# PROTRACTOR
 
-#Prerequisites
+# Prerequisites
 
 Protractor is a Node.js program. To run, you will need to have Node.js installed. You will download Protractor package using npm, which comes with Node.js. Check the version of Node.js you have by running node --version. Then, check the compatibility notes in the Protractor README to make sure your version of Node.js is compatible with Protractor.
 
@@ -8,7 +8,7 @@ By default, Protractor uses the Jasmine test framework for its testing interface
 
 This tutorial will set up a test using a local standalone Selenium Server to control browsers. You will need to have the Java Development Kit (JDK) installed to run the standalone Selenium Server. Check this by running java -version from the command line.
 
-#Setup
+# Setup
 
 Use npm to install Protractor globally with:
 
@@ -23,5 +23,5 @@ Now start up a server with:
 webdriver-manager start
 This will start up a Selenium Server and will output a bunch of info logs. Your Protractor test will send requests to this server to control a local browser. Leave this server running throughout the tutorial. You can see information about the status of the server at http://localhost:4444/wd/hub.
 
-#API Protractor
-Link da API - https://www.protractortest.org/#/api?view=ElementFinder
+# API Protractor
+- Link da API - https://www.protractortest.org/#/api?view=ElementFinder
